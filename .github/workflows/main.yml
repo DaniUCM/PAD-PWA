@@ -25,6 +25,7 @@ jobs:
       - name: Install and Build
         run: |
           npm ci
+          npm i -g react-scripts
           npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
