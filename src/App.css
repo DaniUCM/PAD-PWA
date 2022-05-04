@@ -19,12 +19,6 @@ main {
   padding: 10px 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .Result {
   display: block;
   margin: 4px;
@@ -59,18 +53,6 @@ form > label {
 form > button {
   width: 100%;
   min-height: 48px;
-}
-
-#radio_selector {
-  display: flex;
-  justify-content: center;
-  display: none;
-}
-
-#radio_selector > input[type=radio] {
-  display: none;
-  height: 48px;
-  width: 48px;
 }
 
 .btn-group {

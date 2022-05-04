@@ -32,14 +32,6 @@ class App extends React.Component {
           <form>
             <label htmlFor="query">Busqueda</label>
             <input type="text" id="query" name="query" onChange={this.onChange}></input>
-            <div id="radio_selector">
-              <label htmlFor="radio_all">Todos</label>
-              <input type="radio" id="radio_all" name="types" value="all"></input>
-              <label htmlFor="radio_books">Libros</label>
-              <input type="radio" id="radio_books" name="types" value="books"></input>
-              <label htmlFor="radio_magazines">Revistas</label>
-              <input type="radio" id="radio_magazines" name="types" value="magazines"></input>
-            </div>
             <div className="btn-group">
               <button type="submit" className="btn-green" value="books" onClick={this.onSubmit}>Libros</button>
               <button type="submit" className="btn-blue" value="all" onClick={this.onSubmit}>Todos</button>
